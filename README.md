@@ -54,8 +54,9 @@ git clone https://github.com/Astrosearch/Astrobrowser
 cd Astrobrowser
 npm install
 
-# this takes 30-45 minutes to run
 # the Chromium source is downloaded, which has a large history
+# this might take really long to finish
+
 npm run init
 ```
 brave-core based android builds should use `npm run init -- --target_os=android --target_arch=arm` (or whichever CPU type you want to build for)
